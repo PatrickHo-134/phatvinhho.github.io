@@ -598,13 +598,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Blogs
 --------------------------------------------------------------*/
-.services .icon-box {
+.blogs .icon-box {
   margin-bottom: 20px;
 }
 
-.services .icon {
+.blogs .icon {
   float: left;
   display: flex;
   align-items: center;
@@ -617,35 +617,35 @@ section {
   border: 1px solid #149ddd;
 }
 
-.services .icon i {
+.blogs .icon i {
   color: #fff;
   font-size: 24px;
 }
 
-.services .icon-box:hover .icon {
+.blogs .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.blogs .icon-box:hover .icon i {
   color: #149ddd;
 }
 
-.services .title {
+.blogs .title {
   margin-left: 80px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.blogs .title a {
   color: #343a40;
 }
 
-.services .title a:hover {
+.blogs .title a:hover {
   color: #149ddd;
 }
 
-.services .description {
+.blogs .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
@@ -661,8 +661,8 @@ section {
 }
 
 .certificates .certificates-item .certificates-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 300px;
+  border-radius: 20%;
   margin: 0 auto;
 }
 
