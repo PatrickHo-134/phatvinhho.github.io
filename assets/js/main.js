@@ -138,7 +138,7 @@
     }
   );
 
-  // Porfolio isotope and filter
+  // Portfolio isotope and filter
   $(window).on("load", function() {
     var portfolioIsotope = $(".portfolio-container").isotope({
       itemSelector: ".portfolio-item",
