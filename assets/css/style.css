@@ -22,7 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -90,7 +95,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h1 a,
+#header .profile h1 a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -164,12 +170,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #6f7180;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav-menu a:hover i, .nav-menu .active > a i, .nav-menu li:hover > a i {
+.nav-menu a:hover i,
+.nav-menu .active > a i,
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -211,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/markus-spiske-unsplash.jpg") top center;
   background-size: cover;
 }
 
@@ -298,7 +308,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -341,25 +351,25 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Facts
+# Hobbies
 --------------------------------------------------------------*/
-.facts {
+.hobbies {
   padding-bottom: 30px;
 }
 
-.facts .count-box {
+.hobbies .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.facts .count-box i {
+.hobbies .count-box i {
   display: block;
   font-size: 44px;
   color: #149ddd;
   float: left;
 }
 
-.facts .count-box span {
+.hobbies .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
@@ -368,7 +378,7 @@ section {
   margin-left: 60px;
 }
 
-.facts .count-box p {
+.hobbies .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
@@ -376,7 +386,7 @@ section {
   color: #122f57;
 }
 
-.facts .count-box a {
+.hobbies .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -386,7 +396,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.facts .count-box a:hover {
+.hobbies .count-box a:hover {
   color: #1f5297;
 }
 
@@ -421,7 +431,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #149ddd;
 }
 
@@ -516,7 +526,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
 }
 
@@ -641,52 +652,53 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Certificates
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.certificates .certificates-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.certificates .certificates-item .certificates-img {
   width: 90px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
-.testimonials .testimonial-item h3 {
+.certificates .certificates-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
-.testimonials .testimonial-item h4 {
+.certificates .certificates-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.certificates .certificates-item .quote-icon-left,
+.certificates .certificates-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
 
-.testimonials .testimonial-item .quote-icon-left {
+.certificates .certificates-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials .testimonial-item .quote-icon-right {
+.certificates .certificates-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
 
-.testimonials .testimonial-item p {
+.certificates .certificates-item p {
   font-style: italic;
   margin: 0 15px 15px 15px;
   padding: 20px;
@@ -697,7 +709,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.testimonials .testimonial-item p::after {
+.certificates .certificates-item p::after {
   content: "";
   width: 0;
   height: 0;
@@ -709,12 +721,13 @@ section {
   left: calc(50% - 20px);
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.certificates .owl-nav,
+.certificates .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
 
-.testimonials .owl-dot {
+.certificates .owl-dot {
   display: inline-block;
   margin: 0 5px;
   width: 12px;
@@ -723,12 +736,12 @@ section {
   background-color: #ddd !important;
 }
 
-.testimonials .owl-dot.active {
+.certificates .owl-dot.active {
   background-color: #149ddd !important;
 }
 
 @media (max-width: 767px) {
-  .testimonials {
+  .certificates {
     margin: 30px 10px;
   }
 }
@@ -804,7 +817,9 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
@@ -866,7 +881,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -971,7 +987,8 @@ section {
   z-index: 1;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: left;
 }
