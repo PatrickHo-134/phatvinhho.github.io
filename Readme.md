@@ -1,2 +1,2 @@
 # Phat Vinh Ho - Portfolio
-This portfolio is used for demonstrating my experience and skills. It contains my resume, projects and blogs 
+Please follow this link to access my portfolio https://patrickho-134.github.io/portfolio/
