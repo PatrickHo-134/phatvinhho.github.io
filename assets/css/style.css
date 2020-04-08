@@ -649,6 +649,15 @@ section {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.blogs .date {
+  position: absolute;
+  font-size: 12px;
+  font-style: italic;
+  right: 20px;
 }
 
 /*--------------------------------------------------------------
