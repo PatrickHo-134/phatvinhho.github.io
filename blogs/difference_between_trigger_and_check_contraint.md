@@ -1,4 +1,5 @@
 # CHECK CONSTRAINT vs. TRIGGER for data validation
+#### [#postgresql]() [#trigger]() [#check-constraint]()
 
 ### `CHECK CONSTRAINT`
 > A [check constraint] is the most generic constraint type. It allows you to specify that the value in a certain column must satisfy a Boolean (truth-value) expression.
